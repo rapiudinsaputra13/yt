@@ -1,0 +1,641 @@
+@charset "UTF-8";
+
+
+@font-face {
+  font-family: 'Montserrat-Black';
+  src: url(<?php echo base_url() ?>'assets/fonts/Montserrat-Black.otf');
+}
+
+@font-face {
+  font-family: 'Montserrat-Thin';
+  src: url(<?php echo base_url() ?>'assets/fonts/Montserrat-Thin.otf');
+}
+
+@font-face {
+  font-family: 'Montserrat-ExtraLight';
+  src: url(<?php echo base_url() ?>'assets/fonts/Montserrat-ExtraLight.otf');
+}
+
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url(<?php echo base_url() ?>'assets/fonts/Montserrat-Light.otf');
+}
+
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url(<?php echo base_url() ?>'assets/fonts/Montserrat-Medium.otf');
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url(<?php echo base_url() ?>'assets/fonts/Montserrat-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url(<?php echo base_url() ?>'assets/fonts/Montserrat-SemiBold.otf');
+}
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url(<?php echo base_url() ?>'assets/fonts/Montserrat-Bold.otf');
+}
+
+@font-face {
+  font-family: 'Montserrat-ExtraBold';
+  src: url(<?php echo base_url() ?>'assets/fonts/Montserrat-ExtraBold.otf');
+
+}
+
+@font-face {
+  font-family: 'Columbus';
+  src: url(<?php echo base_url() ?>'assets/fonts/COLUMBUS.TTF');
+
+}
+
+@font-face {
+  font-family: 'Century-Schoolbook';
+  src: url('assets/fonts/CENSCBK.TTF');
+}
+
+@font-face {
+  font-family: 'Century-SchoolbookItalic';
+  src: url(<?php echo base_url() ?>'assets/fonts/SCHLBKI.TTF');
+}
+
+@font-face {
+  font-family: 'Linux-Biolinum';
+  src: url(<?php echo base_url() ?>'assets/fonts/LinBiolinum_R.otf');
+}
+
+@font-face {
+  font-family: 'Linux-BiolinumBold';
+  src: url(<?php echo base_url() ?>'assets/fonts/LinBiolinum_RB.otf');
+}
+
+@font-face {
+  font-family: 'Linux-BiolinumItalic';
+  src: url(<?php echo base_url() ?>'assets/fonts/LinBiolinum_RI.otf');
+}
+
+@font-face {
+  font-family: 'MyriadPro-Bold';
+  src: url(<?php echo base_url() ?>'assets/fonts/MyriadPro-Bold.otf');
+}
+
+@font-face {
+  font-family: 'MyriadPro-Regular';
+  src: url(<?php echo base_url() ?>'assets/fonts/MyriadPro-Regular.otf');
+}
+
+@font-face {
+  font-family: 'MyriadPro-It';
+  src: url(<?php echo base_url() ?>'assets/fonts/MyriadPro-It.otf');
+}
+
+img.bg {
+  object-fit: contain;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+}
+
+/* @media screen and (min-width: 768px) {
+
+
+  } */
+
+.sub-title p {
+  font-family: 'Linux-BiolinumBold';
+  color: #a36927;
+  font-size: 15;
+  margin-top: 20px;
+  letter-spacing: 2.5px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+body {
+  background-color: #a36927;
+}
+
+.bg-landing {
+  background-color: #a36927;
+}
+
+.bg-videos {
+  background-color: #dcbfa5;
+}
+
+.bg-teater {
+  background-color: #dcbfa5;
+}
+
+.bg-teater2 {
+  background-color: #dcbfa5;
+}
+
+.bg-end {
+  background-color: #a36927;
+}
+
+.video-title {
+  font-family: 'Linux-BiolinumBold';
+  color: black;
+  font-size: 14px;
+  letter-spacing: 2.5px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.video-text {
+  font-family: 'Linux-Biolinum';
+  color: black;
+  font-size: 12px;
+}
+
+.video-text2 {
+  font-family: 'Linux-Biolinum';
+  color: black;
+  font-size: 12px;
+  margin-bottom: auto;
+}
+
+.video-seemore {
+  font-family: 'Linux-Biolinum';
+  color: #a36927;
+  font-size: 14.946666666666667px;
+  text-decoration: underline;
+}
+
+.video-seemore:hover {
+  color: #fff;
+}
+
+a.nav {
+  color: white;
+}
+
+.teater {
+  background-color: #dcbfa5;
+  padding-left: 60px;
+  padding-right: 60px;
+  height: 100%;
+}
+
+.teater-title {
+  font-family: 'Linux-BiolinumBold';
+  /* font-size: 50px; */
+  font-size: 20px;
+  color: #a36927;
+  margin-bottom: 30px;
+}
+
+.teater-text {
+  font-family: 'Linux-Biolinum';
+  /* font-size: 12px; */
+  font-size: 13px;
+  color: #a36927;
+}
+
+.teater-peran {
+  font-family: 'Linux-BiolinumBold';
+  /* font-size: 14px; */
+  font-size: 13px;
+  color: #a36927;
+}
+
+.img-teater {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-teater {
+  color: #a36927;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-right: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+a.nav-teater:hover {
+  background-color: #a36927;
+  color: rgb(234, 231, 226);
+}
+
+.double-quotes-end {
+  text-align: center;
+  height: 170px;
+}
+
+.text-ends {
+  font-family: 'Linux-BiolinumItalic';
+  font-size: 24px;
+  color: #dcbfa5;
+  text-align: center;
+  font-style: italic;
+}
+
+.logo-end {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-teaters {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.teater-row {
+  margin-top: 10px;
+  padding: 0;
+}
+
+.teater-year {
+  font-family: 'Linux-BiolinumBold';
+  font-size: 46.666666666666664px;
+  color: #fff;
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+}
+
+.br-teater-title {
+  font-family: 'Linux-BiolinumBold';
+  font-size: 16px;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+}
+
+.col-teater {
+  padding: 2px;
+  position: relative;
+}
+
+.col-ge {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.i-social {
+  font-family: 'Linux-Biolinum';
+  color: #dcbfa5;
+  font-style: normal;
+  font-size: 16px;
+}
+
+i {
+  color: white;
+}
+
+.futer {
+  font-family: 'Linux-Biolinum';
+  color: #dcbfa5;
+  letter-spacing: 0.5em;
+  font-size: 15px;
+}
+
+.row-social {
+  height: 50px;
+}
+
+.teater-hr {
+  color: #fff;
+}
+
+a.buy-teater {
+  color: #a36927;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-family: 'Linux-Biolinum';
+  color: rgb(0, 0, 0);
+}
+
+
+.nav-tm {
+  width: max-content;
+  font-family: 'Linux-Biolinum';
+  color: #deccbe;
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 3px;
+
+}
+
+.nav-tm:hover {
+  width: max-content;
+  color: white;
+  font-weight: bold;
+  padding-bottom: 0;
+  padding-right: 0;
+  border-bottom: 1px solid white;
+}
+
+.bg-dd {
+  background-color: transparent;
+  border: transparent;
+}
+
+.img-video {
+  border: 1px solid rgb(162, 119, 106);
+}
+
+.ssl {
+  margin-left: 15px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #dcbfa5;
+}
+
+.ssl-signin {
+  margin-left: 15px;
+  font-family: 'Linux-Biolinum';
+  color: #dcbfa5;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.ssl-login {
+  margin-left: 15px;
+  font-family: 'Linux-BiolinumBold';
+  color: #dcbfa5;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.ssl:hover,
+.ssl:focus,
+.ssl-signin:hover,
+.ssl-signin:focus .ssl-login:hover,
+.ssl-login:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.bg-about {
+  background-image: url('assets/image/about-bg');
+}
+
+.title-about {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  font-family: 'Linux-Biolinum';
+  /* font-size: 50px; */
+  font-size: 25px;
+  width: 35%;
+  color: white;
+}
+
+.title-about2 {
+  position: absolute;
+  top: 12%;
+  left: 10%;
+  font-family: 'Linux-BiolinumBold';
+  font-size: 15px;
+  width: 35%;
+  color: white;
+  letter-spacing: 3px;
+}
+
+.text-about {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  font-family: 'Linux-Biolinum';
+  font-size: 12px;
+  color: white;
+}
+
+.medsos-about-tw {
+  position: absolute;
+  bottom: 7%;
+  right: 7%;
+  font-size: 12px;
+  color: #a36927;
+  font-weight: bold;
+}
+
+.medsos-about-ig {
+  position: absolute;
+  bottom: 7%;
+  right: 17%;
+  font-size: 12px;
+  color: #a36927;
+  font-weight: bold;
+}
+
+.medsos-about-fa {
+  position: absolute;
+  bottom: 7%;
+  right: 32%;
+  font-size: 12px;
+  color: #a36927;
+  font-weight: bold;
+}
+
+.contact-title {
+  font-family: 'Linux-Biolinum';
+  color: rgb(255, 254, 254);
+  font-size: 28px;
+}
+
+.contact-text {
+  font-family: 'Linux-Biolinum';
+  color: rgb(255, 254, 254);
+  font-size: 12px;
+}
+
+.contact-card {
+  padding: 0;
+  border-radius: 0;
+  border: none;
+}
+
+.contact-input {
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-color: rgba(119, 59, 41, 0.2);
+  width: 100%;
+  background-color: transparent;
+  font-family: 'Linux-Biolinum' !important;
+
+}
+
+::placeholder {
+  color: #ada687 !important;
+}
+
+.contact-num {
+  font-size: 13px;
+}
+
+.contact-mail {
+  font-size: 13px;
+}
+
+.bg-contact {
+  background-image: url('assets/image/bg-contact.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.send-message {
+  font-family: 'Linux-BiolinumBold';
+}
+
+.bg-video {
+  background-color: #deccbe;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-brown {
+  color: #a36927;
+}
+
+.title-video {
+  font-family: 'Linux-Biolinum';
+}
+
+.sub-title-video {
+  font-family: 'Linux-Biolinum';
+}
+
+.desc-video {
+  font-family: 'Linux-Biolinum';
+}
+
+.p-video {
+  font-family: 'Linux-BiolinumBold';
+}
+
+.card-footer {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  margin-top: auto;
+}
+
+.video-card {
+  min-height: 160px;
+}
+
+.search {
+  margin-top: 2px;
+  margin-left: 2px;
+  height: 17px;
+  display: none;
+  width: 200px;
+}
+
+.img-org {
+  width: 200px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+.container-org {
+  position: relative;
+  padding-left: 11%;
+  padding-left: 11%;
+  padding-top: 50px;
+}
+
+.container {
+  position: relative;
+  padding-left: 3%;
+  padding-right: 3%;
+  /* margin-right: 2%; */
+  width: 100%;
+  max-width: 100%;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+  border-bottom: 0px;
+}
+
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover {
+
+  font-family: 'Linux-Biolinum';
+  background-color: transparent;
+  border-color: transparent;
+  color: #fff;
+  border: 0px;
+}
+
+a:focus {
+  outline: 0px;
+  outline-offset: 0px;
+}
+
+.dropdown-menu>li>a {
+  color: #fff;
+
+}
+
+.dropdown-menu>li>a:hover {
+  color: #fff;
+  width: max-content;
+  font-weight: bold;
+  padding-bottom: 0;
+  padding-right: 0;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover {
+  color: #fff;
+  font-family: 'Linux-Biolinum';
+  text-decoration: none;
+  background-color: rgb(255, 255, 255, 0);
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  display: none;
+  float: left;
+  min-width: fit-content;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  text-align: left;
+  list-style: none;
+  background-clip: padding-box;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, .0);
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 5%;
+}
+
+.btn-brown {
+  background-color: #a36927;
+  color: #fff;
+}
+
+
+.modal-content {
+  font-family: 'Linux-Biolinum';
+
+}
